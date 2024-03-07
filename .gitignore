@@ -2,6 +2,8 @@ internal/web/public/application.css
 bin/*
 public/*.css
 public/*.js
-components/*.go
-components/home/*.go
+internal/**/**/*_templ.txt
+internal/**/*_templ.txt
+internal/**/**/*_templ.go
+internal/**/*_templ.go
 .env
