@@ -1,7 +1,7 @@
 module.exports = {
   content: [
-    'internal/**/*.txt',
-    'internal/**/**/*.txt',
+    'internal/**/*.templ',
+    'internal/**/**/*.templ',
     "internal/public/*.js",  
   ],
 
