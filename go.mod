@@ -3,6 +3,7 @@ module github.com/book/help
 go 1.21.0
 
 require (
+	github.com/a-h/templ v0.2.598
 	github.com/go-chi/chi/v5 v5.0.10
 	github.com/leapkit/core v1.2.10
 	github.com/lib/pq v1.10.9
@@ -10,7 +11,6 @@ require (
 )
 
 require (
-	github.com/a-h/templ v0.2.598 // indirect
 	github.com/fatih/structs v1.1.0 // indirect
 	github.com/fsnotify/fsnotify v1.7.0 // indirect
 	github.com/gobuffalo/flect v0.3.0 // indirect
