@@ -7,3 +7,5 @@ internal/**/*_templ.txt
 internal/**/**/*_templ.go
 internal/**/*_templ.go
 .env
+.DS_Store
+.idea/
