@@ -2,11 +2,11 @@ package main
 
 import (
 	"fmt"
+	"github.com/book-quote/internal"
+	"github.com/book-quote/internal/migrations"
 	"os"
 
 	"github.com/leapkit/core/db"
-	"github.com/book/help/internal"
-	"github.com/book/help/internal/migrations"
 )
 
 func main() {
@@ -22,7 +22,7 @@ func main() {
 
 	switch os.Args[1] {
 	case "migrate":
-		conn, err := internal.Connection()
+		conn, err := internal.DB()
 		if err != nil {
 			fmt.Println(err)
 			return

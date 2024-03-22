@@ -1,10 +1,10 @@
 package main
 
 import (
+	"github.com/book-quote/internal"
 	"os"
 	"os/exec"
 
-	"github.com/book/help/internal"
 	"github.com/paganotoni/tailo"
 )
 
