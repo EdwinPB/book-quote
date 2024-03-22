@@ -2,10 +2,6 @@ internal/web/public/application.css
 bin/*
 public/*.css
 public/*.js
-internal/**/**/*_templ.txt
-internal/**/*_templ.txt
-internal/**/**/*_templ.go
-internal/**/*_templ.go
 .env
 .DS_Store
 .idea/

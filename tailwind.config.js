@@ -1,7 +1,8 @@
 module.exports = {
   content: [
-    'internal/components/**/*.templ',
-    'internal/public/*.js',
+    'internal/*.html',
+    'internal/**/*.html',
+    "internal/public/*.js",
   ],
 
   plugins: [

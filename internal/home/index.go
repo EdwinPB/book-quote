@@ -3,12 +3,14 @@ package home
 import (
 	"net/http"
 
-	"github.com/book/help/internal/components/home"
-	"github.com/book/help/internal/render"
+	"github.com/leapkit/core/render"
 )
 
 func Index(w http.ResponseWriter, r *http.Request) {
-	component := home.Home()
+	rw := render.FromCtx(r.Context())
 
-	render.Render(w, r, component)
+	err := rw.Render("home/index.html")
+	if err != nil {
+		http.Error(w, err.Error(), http.StatusInternalServerError)
+	}
 }
