@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+
+<svg width="448" height="156" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+ <defs>
+  <linearGradient id="svg_2">
+   <stop offset="0" stop-color="#f4c79c"/>
+   <stop offset="0.987" stop-color="#0b3863"/>
+  </linearGradient>
+ </defs>
+ <g class="layer">
+  <title>Layer 1</title>
+  <rect fill="url(#svg_2)" height="156" id="svg_1" stroke="#9e6565" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" width="448" x="0" y="0"/>
+  <text fill="#fcf9f9" font-family="serif" font-size="24" font-style="normal" font-weight="bold" id="svg_4" letter-spacing="8" stroke="#9e6565" stroke-linecap="round" stroke-linejoin="round" stroke-width="0" text-anchor="middle" transform="matrix(2.57389 0 0 1.7797 -201.68 -130.811)" word-spacing="1" x="95" xml:space="preserve" y="100">&quot;</text>
+  <text fill="#fcf9f9" font-family="serif" font-size="24" font-style="normal" font-weight="bold" id="svg_6" letter-spacing="8" stroke="#9e6565" stroke-linecap="round" stroke-linejoin="round" stroke-width="0" text-anchor="middle" transform="matrix(2.57389 0 0 1.7797 -17.1796 -48.2298)" word-spacing="1" x="170" xml:space="preserve" y="100">&quot;</text>
+  <text fill="#fcf9f9" font-family="serif" font-size="12" font-style="" font-weight="" id="svg_8" stroke="#9e6565" stroke-linecap="round" stroke-linejoin="round" stroke-width="0" text-anchor="middle" dominant-baseline="middle" text-decoration="0" x="50%">
+    <tspan dy="1.2em" x="50%" y="30%">
+        Ryan Holiday has helped bring the ancient teaching of Stoicism
+    </tspan>      
+    <tspan dy="1.2em" x="50%">
+        to millions of readers--from athletes and politicians to CEOs
+    </tspan>
+  </text>
+  <text fill="#fcf9f9" font-family="serif" font-size="12" font-style="" font-weight="" id="svg_8" stroke="#9e6565" stroke-linecap="round" stroke-linejoin="round" stroke-width="0"  dominant-baseline="middle" text-decoration="0" x="5%" y="90%">
+    Good Morning America
+  </text>
+ </g>
+</svg>
+
