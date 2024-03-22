@@ -2,8 +2,8 @@ package main
 
 import (
 	"fmt"
+	"github.com/book-quote/internal"
 
-	"github.com/book/help/internal"
 	"github.com/leapkit/core/gloves"
 )
 

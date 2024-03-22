@@ -1,4 +1,4 @@
-FROM golang:1.21-alpine as builder
+FROM golang:1.22-alpine as builder
 RUN apk --update add build-base
 
 WORKDIR /src/app
@@ -7,7 +7,6 @@ RUN go mod download
 
 ADD . .
 RUN go build -o bin/db ./cmd/db
-RUN go build -o bin/templ ./cmd/templ
 RUN go run ./cmd/build
 
 FROM alpine
@@ -17,6 +16,5 @@ WORKDIR /bin/
 # Copying binaries
 COPY --from=builder /src/app/bin/app .
 COPY --from=builder /src/app/bin/db .
-COPY --from=builder /src/app/bin/templ .
 
-CMD /bin/db migrate; /bin/templ; /bin/app
+CMD /bin/app
