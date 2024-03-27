@@ -2,6 +2,7 @@ package internal
 
 import (
 	"embed"
+
 	"github.com/book-quote/internal/home"
 	"github.com/book-quote/public"
 
@@ -80,6 +81,7 @@ func AddRoutes(r server.Router) error {
 	))
 
 	r.HandleFunc("GET /{$}", home.Index)
+	r.HandleFunc("GET /clicked/{$}", home.Clicked)
 
 	// Mounting the assets manager at the end of the routes
 	// so that it can serve the public assets.
