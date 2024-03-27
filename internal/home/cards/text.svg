@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+
+<svg id="stext" width="448" height="156" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+  <symbol id="quotes-left">
+      <path fill="white" d="M7.031 14c3.866 0 7 3.134 7 7s-3.134 7-7 7-7-3.134-7-7l-0.031-1c0-7.732 6.268-14 14-14v4c-2.671 0-5.182 1.040-7.071 2.929-0.364 0.364-0.695 0.751-0.995 1.157 0.357-0.056 0.724-0.086 1.097-0.086zM25.031 14c3.866 0 7 3.134 7 7s-3.134 7-7 7-7-3.134-7-7l-0.031-1c0-7.732 6.268-14 14-14v4c-2.671 0-5.182 1.040-7.071 2.929-0.364 0.364-0.695 0.751-0.995 1.157 0.358-0.056 0.724-0.086 1.097-0.086z"></path>
+  </symbol>
+  <symbol id="quotes-right">
+      <path fill="white" d="M25 20c-3.866 0-7-3.134-7-7s3.134-7 7-7 7 3.134 7 7l0.031 1c0 7.732-6.268 14-14 14v-4c2.671 0 5.182-1.040 7.071-2.929 0.364-0.364 0.695-0.75 0.995-1.157-0.357 0.056-0.724 0.086-1.097 0.086zM7 20c-3.866 0-7-3.134-7-7s3.134-7 7-7 7 3.134 7 7l0.031 1c0 7.732-6.268 14-14 14v-4c2.671 0 5.182-1.040 7.071-2.929 0.364-0.364 0.695-0.75 0.995-1.157-0.357 0.056-0.724 0.086-1.097 0.086z"></path>    
+  </symbol>
+ 
+  <use x="1%" y="1%" xlink:href="#quotes-left"></use>
+  <use x="91%" y="71%" xlink:href="#quotes-right"></use>
+  
+  <text fill="#fcf9f9" font-family="serif" font-size="14" font-style="" font-weight="" id="svg_8" stroke="#9e6565" stroke-linecap="round" stroke-linejoin="round" stroke-width="0" text-anchor="middle" dominant-baseline="middle" text-decoration="0" x="50%">
+    <tspan dy="1.2em" x="50%" y="30%">
+        Ryan Holiday has helped bring the ancient teaching of Stoicism
+    </tspan>      
+    <tspan dy="1.2em" x="50%">
+        to millions of readers--from athletes and politicians to CEOs
+    </tspan>
+    <tspan dy="1.2em" x="50%">        
+    </tspan>
+  </text>
+  <text fill="#fcf9f9" font-family="serif" font-size="12" font-style="" font-weight="" id="svg_8" stroke="#9e6565" stroke-linecap="round" stroke-linejoin="round" stroke-width="0"  dominant-baseline="middle" text-decoration="0" x="5%" y="90%">
+    Good Morning America
+  </text>
+ 
+</svg>
+
